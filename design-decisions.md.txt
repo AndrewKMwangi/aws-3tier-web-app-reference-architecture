@@ -1,0 +1,7 @@
+# Design Decisions
+
+- Chose ALB over NLB for Layer 7 routing
+- Selected RDS Multi-AZ for automatic failover
+- Used Auto Scaling for elasticity
+- Private subnets used for application and database tiers
+- CloudFront used to reduce latency globally

@@ -1,0 +1,7 @@
+# Business Requirements
+
+- System must support up to 1M concurrent users
+- 99.9% uptime requirement
+- Secure handling of user data
+- Low latency global access
+- Ability to scale during peak traffic periods

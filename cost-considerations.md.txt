@@ -1,0 +1,6 @@
+# Cost Optimization Strategy
+
+- Auto Scaling reduces idle compute cost
+- S3 lifecycle policies reduce storage cost
+- Reserved Instances for baseline workloads
+- CloudFront reduces origin load

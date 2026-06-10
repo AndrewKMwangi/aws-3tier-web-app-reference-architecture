@@ -1,0 +1,7 @@
+# Security Design
+
+- VPC segmentation (public and private subnets)
+- Security Groups restrict inbound traffic
+- IAM roles used for EC2 permissions
+- Encryption using AWS KMS
+- WAF protects against common attacks (SQL injection, XSS)

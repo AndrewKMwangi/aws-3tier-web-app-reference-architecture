@@ -1,0 +1,40 @@
+# Cloud Architecture Reference: AWS 3-Tier Web Application
+
+## Overview
+This architecture demonstrates a highly available, scalable, and secure 3-tier web application deployed on AWS. It is designed for enterprise workloads requiring resilience, performance, and cost efficiency.
+
+## Business Requirements
+- High availability across multiple Availability Zones
+- Secure access with minimal public exposure
+- Scalable web and application tiers
+- Reliable database layer with failover capability
+- Centralized monitoring and logging
+
+## Architecture Components
+- Route 53 for DNS routing
+- CloudFront for content delivery
+- Application Load Balancer for traffic distribution
+- EC2 Auto Scaling for compute layer
+- Amazon RDS Multi-AZ for database reliability
+- S3 for static assets and backups
+- CloudWatch for monitoring and alerts
+
+## Design Principles
+- Well-Architected Framework compliance
+- Security by design (least privilege IAM)
+- Horizontal scalability
+- Fault tolerance and high availability
+
+## Security Considerations
+- Private subnets for application and database layers
+- Security groups restrict inbound traffic
+- IAM roles used instead of static credentials
+- Encryption at rest and in transit
+
+## Cost Optimization
+- Auto Scaling to match demand
+- Reserved instances for baseline workloads
+- S3 lifecycle policies
+
+## Diagram
+See `architecture-diagram.png`
